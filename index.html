@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+    <title>Guess My Number</Code>de</title>
+</head>
+<body class="bg-lime-500 font-mono mt-6 pt-6 mr-6 pr-6 ml-6 pl-6 py-0 text-center sm:text-left">
+    <header>
+        <section>   
+        <p class="between text-white text-right">(between 1 and 20)</p>
+        <button class="btn again shadow-inner bg-white place-items-start h-12 px-6 m-2 text-lg" id="reset-button">Again!</button>
+        <h1 class="text-5xl text-center">Guess My Number!</h1>
+        <div class="number box-border h-12 w-32 p-4 border-4 bg-white m-4 text-center text-black items-center">?</div>
+        </section>
+    </header>
+    <main>
+    <section class="left">
+        <p class="guessing text-center text-white text-lg">Start guessing...</p>
+        <input type="input-field" class="guess block p-4 bg-lime-500 border-2 text-black text-center text-lg" /> <br>
+        <button class="btn check bg-white h-12 px-6 m-2 ml-6">Check!</button>
+        <p class="score text-center text-lg text-white"># Score:<span class="score">20</span></span></p>
+        <p class="label-highscore text-center text-lg text-white py-0 px-0">Highscore: <span class="highscore">0</span></p>
+    </section>
+    </main>
+</body>
+</html>
